@@ -17,7 +17,11 @@ int calculo(int num1, int num2, int calcOperador){
 	case '/';
 	result = num1 / num2;
 	break;
-	}
+	default:
+	aux = 0
+	return 0;
+    }
+    aux = 1;
 	return resultado;
 }
 
