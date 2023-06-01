@@ -9,4 +9,6 @@ int main{
 	cin >> num1;
 	cout << "Escolha o segundo número \n";
 	cin >> num2;
+	cout << "Escolha a operação necessária: ('+' para somar, '-' para subtrair, '*' para multiplicar e '/' para dividir) \n";
+	cin >> operador;
 }
